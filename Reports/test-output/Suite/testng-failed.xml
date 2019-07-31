@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Bills Report Builder(failed)">
+    <parameter name="builderName" value="Bills Report Builder"/>
+    <classes>
+      <class name="com.reports.testcases.TestPaymentforInsurance">
+        <methods>
+          <include name="verifyDateFieldsForYesterdayOptions"/>
+          <include name="testToDateFieldBlank_pdf"/>
+          <include name="check1MonthFavPDFReport"/>
+          <include name="testToDateFieldBlank_favSaveButton"/>
+          <include name="verifyDateFieldsForFromPastToFuture_pdf"/>
+          <include name="checkForCorporateOffice" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="switchToTheUser"/>
+          <include name="chekForCorporateOffice_fav3"/>
+          <include name="verifyDateFieldsForThisMonthOptions"/>
+          <include name="checkFavouriteReportsForDefaultDate_optionSelect"/>
+          <include name="vreifyForYesterdaysDateOnReFreshing"/>
+          <include name="check2MonthFavPDFReport"/>
+          <include name="testDateFieldsBlank_pdf"/>
+          <include name="testDateFieldsBlank_text"/>
+          <include name="closeBrowswe"/>
+          <include name="createFavouritesForAllowedReportDurationoption" invocation-numbers="0 1 2 3"/>
+          <include name="verifyDateFieldsForPreviousMonthOptions"/>
+          <include name="verifyDateFieldsForFromPastToFuture_text"/>
+          <include name="testToDateFieldBlank_text"/>
+          <include name="check3MonthFavPDFReport"/>
+          <include name="checkAutoCustomDateOption"/>
+          <include name="test3MonthPdf"/>
+          <include name="testFromDateFieldBlank_favSaveButton"/>
+          <include name="setUp"/>
+          <include name="testFromDateFieldBlank_pdf"/>
+          <include name="checkFavouriteReportsForDefaultDate_option3"/>
+          <include name="chekForCorporateOffice_fav2"/>
+          <include name="test3MonthText"/>
+          <include name="checkForThisFinancialYear"/>
+          <include name="test3MonthCsv"/>
+          <include name="checkForPreviousFinancialYear"/>
+          <include name="checkForCorporateOffice_fav1"/>
+          <include name="testFromDateFieldBlank_cvs"/>
+          <include name="verifyDateFieldsForFromPastToFuture_csv"/>
+          <include name="testDateFieldsBlank_csv"/>
+          <include name="verifyAllowedReportDurationDropdown" invocation-numbers="0 1 2 3"/>
+          <include name="verifyDateFieldsForFromPastToFuture_toSaveFav"/>
+          <include name="checkFavouriteReportsForDefaultDate_option2"/>
+          <include name="pdfTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="testDateFieldsBlank_favSaveButton"/>
+          <include name="checkFavouriteReportsForDefaultDate_option1"/>
+          <include name="testToDateFieldBlank_cvs"/>
+          <include name="verifyDateFieldsForTodayOptions"/>
+          <include name="testFromDateFieldBlank_text"/>
+        </methods>
+      </class> <!-- com.reports.testcases.TestPaymentforInsurance -->
+    </classes>
+  </test> <!-- Bills Report Builder(failed) -->
+</suite> <!-- Failed suite [Suite] -->
